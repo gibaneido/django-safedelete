@@ -7,15 +7,7 @@ CHANGELOG
 
 ** New **
 
--
-
-** Removed **
-
--
-
-** Bugfixes **
-
--
+- Add suport a Model superclass to use custom django models
 
 0.3.6
 ==================

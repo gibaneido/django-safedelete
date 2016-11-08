@@ -39,7 +39,6 @@ def safedelete_mixin_factory(policy,
                       NO_DELETE)
     assert visibility in (DELETED_INVISIBLE, DELETED_VISIBLE_BY_FIELD, DELETED_VISIBLE_BY_PK)
 
-
     def is_safedelete(related):
         bases = related.__class__.__bases__
         for base in bases:
